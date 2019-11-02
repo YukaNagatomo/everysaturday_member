@@ -46,7 +46,12 @@ body {
   width: 25%;
   box-sizing: border-box;
   padding: 0 5px;
-  float: left
+  float: left;
+  transition: .1s;
+}
+
+.members a:hover,.members a:active{
+  transform: scale(1.1);
 }
 
 img{

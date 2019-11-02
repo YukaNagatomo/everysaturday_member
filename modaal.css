@@ -54,7 +54,7 @@
 
 .modaal-wrapper .modaal-close {
 	border: none;
-	background: transparent;
+/*	background: transparent;*/
 	padding: 0;
 	-webkit-appearance: none;
 }
@@ -138,10 +138,17 @@
 	opacity: 1;
 	width: 50px;
 	height: 50px;
-	background: rgba(0, 0, 0, 0);
+	background: #fff;
 	border-radius: 100%;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+}
+
+.modaal-close:focus:before,
+.modaal-close:focus:after,
+.modaal-close:hover:before,
+.modaal-close:hover:after {
+	background: #0B346E;
 }
 
 .modaal-close:focus,
@@ -150,12 +157,6 @@
 	background: #fff;
 }
 
-.modaal-close:focus:before,
-.modaal-close:focus:after,
-.modaal-close:hover:before,
-.modaal-close:hover:after {
-	background: #b93d0c;
-}
 
 .modaal-close span {
 	position: absolute !important;
@@ -178,7 +179,7 @@
 	width: 4px;
 	height: 22px;
 	border-radius: 4px;
-	background: #fff;
+	background: #0B346E;
 	-webkit-transition: background 0.2s ease-in-out;
 	transition: background 0.2s ease-in-out;
 }
