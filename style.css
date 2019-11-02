@@ -54,13 +54,18 @@ img{
 }
 
 .name{
+  color: #0B346E;
   text-align: center;
   font-family: "name";
   line-height: 40px;
+  padding: 12px 0 10px;
 }
 
 .name2{
-  text-align: center;
   font-family: "name2";
-  line-height: 40px;
+}
+
+.modaal-container{
+  max-width: 380px;
+  border-radius: 22px;
 }
